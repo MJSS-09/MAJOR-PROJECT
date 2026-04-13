@@ -1,6 +1,3 @@
-///------------------------------------------------------------------------------
-//// 5. 6-TO-1 SELECTOR (for Display Interface)
-////------------------------------------------------------------------------------
 module selector_6to1(
     input wire [2:0] sel,           // Selection signal from counter
     input wire [3:0] data0,         // Path display
