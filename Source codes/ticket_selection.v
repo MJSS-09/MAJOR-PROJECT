@@ -6,7 +6,7 @@ module ticket_selection(
     input wire path_2,      // Route 2 selection
     input wire pri3,        // Price option 3 rupees
     input wire pri4,        // Price option 5 rupees
-    input wire pri5,        // Price option 10 rupees
+    input wire pri5,        // Price option 10 rupees 
     input wire qua_1,       // Quantity: 1 ticket
     input wire qua_2,       // Quantity: 2 tickets
     output reg [1:0] PATH,  // Selected path output
