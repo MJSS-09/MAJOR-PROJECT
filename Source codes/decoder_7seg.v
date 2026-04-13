@@ -1,6 +1,3 @@
-////------------------------------------------------------------------------------
-//// 6. 7-SEGMENT DECODER (for Display Interface)
-////------------------------------------------------------------------------------
 module decoder_7seg(
     input wire [3:0] bcd,           // 4-bit BCD input
     output reg [6:0] segments       // 7-segment display output (a-g)
